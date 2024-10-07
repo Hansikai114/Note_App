@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/39/630/537/lines-wave-colorful-background-wallpaper-thumb.jpg');
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.notes-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.note {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  color: black;
+}
+
+.note p {
+  margin: 0;
+}
+
+.note button {
+  background-color: #007bff;
+  margin: 5px 0;
+}
+
+.note button:hover {
+  background-color: #0056b3;
+}
+
+.note button:last-child {
+  background-color: #dc3545;
+}
+
+.note button:last-child:hover {
+  background-color: #c82333;
+}
